@@ -328,7 +328,7 @@ orderInfoForm.addEventListener('click',e=>{
      return
   }
   //驗證手機格式-防止訂單成立
-  if(!validatePhone(customerEmailValue)){
+  if(!validatePhone(customerPhoneValue)){
    alert("請輸入格式正確的電話");
    return
   }
